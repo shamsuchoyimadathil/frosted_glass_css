@@ -36,6 +36,7 @@ p{
     color: #2F4F4F;
     padding: 1rem;
 }
+
 .glass-effect{
     width: 50%;
     height: auto;
@@ -47,15 +48,14 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
-
 
 .glass-effect:hover{
     animation-name: glass-effect;
     animation-duration: 7s;
     animation-iteration-count: infinite;
     cursor: pointer;
-    z-index: 10;
 }
 
 @keyframes glass-effect {
